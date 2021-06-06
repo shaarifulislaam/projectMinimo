@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 body{
     margin: 0px;
     padding: 0;
+    font-family: 'Playfair Display', serif;
 
 }
 *{
@@ -8,6 +10,9 @@ body{
 }
 .pad-70{
     padding: 70px 0;
+}
+.text-center{
+    text-align: center;
 }
 header{
     padding: 35px 0 20px;
@@ -103,4 +108,66 @@ ul li a{
 }
 .post-title{
     margin: 15px 0;
+}
+/*News*/
+.newsletter-wrap{
+    background-color: #f0f0f0;
+}
+
+form{
+    width: 500px;
+    margin: 0 auto ;
+}
+.form-control{
+    width: 100%;
+    height: 50px;
+   border: none;
+   background-color: transparent;
+    border-bottom : 1px solid #626262;
+}
+.input-group{
+    position: relative;
+}
+ .paper-plane{
+     position: absolute;
+     top: 50%;
+     right: 0;
+     transform: translateY(-50%);
+ }
+ .btn{
+     padding: 20px 35px;
+     border: 1px solid #626262;
+     background-color: transparent;
+     font-size: 20px;
+     font-family: 'Playfair Display', serif;
+ }
+ footer{
+     background-color: #f0f0f0;
+     padding: 40px 0;
+ }
+ .footer-menu{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    overflow: auto;
+
+    
+ }
+ .footer-menu li{
+     float: left;
+     margin-right: 10px;
+ }.footer-menu li a{
+     color: #444;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ .footer-wrap{
+     overflow: auto;
+ }
+.footer-right
+{
+    float: right;
+}
+.footer-left{
+    float: left;
 }
