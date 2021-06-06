@@ -81,4 +81,26 @@ ul li a{
 
 /*Weekend end*/
 
-
+.post{
+    width:48% ;
+}
+.post img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.row{
+    overflow: auto;
+    margin-bottom: 70px;
+}
+.post-left{
+    float: left;
+}
+.post-right{
+    float: right;
+}
+.post tag{
+    text-transform: uppercase;
+}
+.post-title{
+    margin: 15px 0;
+}
