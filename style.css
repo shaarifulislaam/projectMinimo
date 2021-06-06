@@ -6,6 +6,9 @@ body{
 *{
     box-sizing: border-box;
 }
+.pad-70{
+    padding: 70px 0;
+}
 header{
     padding: 35px 0 20px;
 }
@@ -53,3 +56,29 @@ ul li a{
 .banner img{
     width: 100%;
 }
+
+/* banner end here */
+
+/*Weekend start*/
+
+.tag,.comment{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #b4ad9e;
+    
+}
+.comment{
+    text-decoration: none;
+}
+.title{
+    color: #626262;
+    font-size: 30px;
+}
+.description{
+    line-height: 1.7;
+    margin-bottom: 40px;
+}
+
+/*Weekend end*/
+
+
